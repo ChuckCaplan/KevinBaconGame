@@ -14,7 +14,7 @@ Requirements
 ### 1. Clone this repo.
     git clone https://github.com/ChuckCaplan/KevinBaconGame
 
-### Compile and run the application.
+### 2. Compile and run the application.
 	cd KevinBaconGame
 	mvn compile exec:java -Dexec.mainClass="com.chuckcaplan.game.kevinbacongame.KevinBaconGame"
 
