@@ -31,6 +31,11 @@ public class KevinBaconGame {
 	}
 
 	public void run() {
+
+		System.out.println("Kevin Bacon Game implementation in Java");
+		System.out.println("Note - This can take several minutes to run.");
+		System.out.println();
+
 		File file = new File("data.txt");
 		List<String> data = null;
 
@@ -57,7 +62,7 @@ public class KevinBaconGame {
 			}
 		}
 
-		// print out longest path from Kevin Bacon
+		// print out actor farthest from Kevin Bacon
 		printLongestPathStats("[[Kevin Bacon]]");
 
 		System.out.println();
