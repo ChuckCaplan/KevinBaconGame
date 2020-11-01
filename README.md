@@ -8,7 +8,7 @@ Uses the JGraphT Java graph implementation as well as an existing file full of m
 
 # Installation
 Requirements
-- Java - I am using Java 15, but I believe a minimum of Java 11 is required due to JGraphT.
+- Java 11 or higher.
 - Maven - To download dependencies, compile, and run.
 
 ### 1. Clone this repo.
