@@ -63,13 +63,16 @@ public class KevinBaconGame {
 		}
 
 		// print out actor farthest from Kevin Bacon
-		printLongestPathStats("[[Kevin Bacon]]");
+		String actor1 = "[[Kevin Bacon]]";
+		System.out.println("Longest path to " + actor1 + ":");
+		printLongestPathStats(actor1);
 
 		System.out.println();
 
 		// print shortest path between two actors
-		String actor1 = "[[Kevin Bacon]]";
+		actor1 = "[[Kevin Bacon]]";
 		String actor2 = "[[Jim Gaffigan]]";
+		System.out.println("Shortest path between " + actor1 + " and " + actor2 + ":");
 		printPathStats(actor1, actor2);
 	}
 
