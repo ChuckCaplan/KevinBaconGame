@@ -71,7 +71,7 @@ public class KevinBaconGame {
 
 		// print shortest path between two actors
 		actor1 = "[[Kevin Bacon]]";
-		String actor2 = "[[Jim Gaffigan]]";
+		String actor2 = "[[Uma Thurman]]";
 		System.out.println("Shortest path between " + actor1 + " and " + actor2 + ":");
 		printPathStats(actor1, actor2);
 	}
